@@ -6,13 +6,12 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Poppins", sans-serif;
-  /* font-family: 'Courgette',cursive; */
-  /* height: 5000px; */
 }
 
 html {
   scroll-behavior: smooth;
 }
+
 .container {
   width: 1200px;
   margin: auto;
@@ -28,30 +27,36 @@ html {
   top: 0px;
   left: 0px;
 }
+
 .header__wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .header__logo {
   display: flex;
   flex-grow: 1;
 }
+
 .header__logo__text {
   color: #fba24f;
   font-family: "Courgette", cursive;
 }
+
 .nav__list {
   display: flex;
   flex-direction: row;
   align-items: center;
   list-style: none;
 }
+
 .nav__link {
   text-decoration: none;
   color: #828282;
   margin: 0px 12px;
 }
+
 #food__network__btn {
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
   box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
@@ -61,6 +66,7 @@ html {
   transition: 0.5s;
   transition-timing-function: linear;
 }
+
 #food__network__btn:hover {
   background: linear-gradient(88.33deg, #fe4b2e -7.64%, #fba24f 145.94%);
 }
@@ -74,9 +80,11 @@ html {
   padding-top: 10%;
   align-items: center;
 }
+
 .half__part {
   width: 50%;
 }
+
 .home__page__heading__text {
   font-weight: 600;
   font-size: 50px;
@@ -85,10 +93,12 @@ html {
   color: #575757;
   font-family: "Poppins", sans-serif;
 }
+
 .home__page__heading__text span {
   color: #fba24f;
   font-family: "Courgette", cursive;
 }
+
 .home__page__description {
   color: #828282;
   font-size: 15px;
@@ -99,9 +109,11 @@ html {
   width: 70%;
   padding-left: 26%;
 }
+
 .home__page__order__btn {
   text-decoration: none;
 }
+
 /* home page styling end  */
 
 /* about page styling start  */
@@ -111,11 +123,13 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .about__page__wrapper {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
 }
+
 .about__page__picture {
   width: 40%;
   padding-left: 15%;
@@ -124,6 +138,7 @@ html {
 .about__content__wrapper {
   padding-left: 10%;
 }
+
 .about__content__heading {
   font-weight: 600;
   font-size: 40px;
@@ -139,9 +154,11 @@ html {
   text-align: justify;
   padding-bottom: 40px;
 }
+
 .about__page__btn {
   text-decoration: none;
 }
+
 /* about page styling end  */
 
 /* recipies page styling start */
@@ -152,6 +169,7 @@ html {
   line-height: 48px;
   color: #707070;
 }
+
 .recepies__description {
   display: block;
   text-align: center;
@@ -178,6 +196,7 @@ html {
   padding: 20px;
   margin: 0px 15px;
 }
+
 .card__image__wrapper {
   width: 270px;
   height: 200px;
@@ -190,12 +209,15 @@ html {
   height: 100%;
   transition: 0.6s;
 }
+
 .card__image:hover {
   transform: scale(1.5);
 }
+
 .card__content__wrapper {
   padding: 15px 0px;
 }
+
 .card__content__wrapper p {
   color: #828282;
   font-size: 15px;
@@ -214,11 +236,13 @@ html {
   width: 1035px;
   margin: 120px auto;
 }
+
 .social__media__item__wrapper {
   display: flex;
   flex-direction: column;
   align-content: space-around;
 }
+
 .social__media__item__wrapper h2 {
   font-weight: bold;
   font-size: 48px;
@@ -232,33 +256,144 @@ html {
   line-height: 26px;
   color: #18191f;
 }
+
 /* recipies page styling end */
 
-
 /* Testimonial Section start  */
-.testimonial__content__wrapper{
+.testimonial__content__wrapper {
   display: flex;
-  margin:96px 0px;
+  margin: 28px 0px;
 }
-.testimonial__card{
- background: #fff;
- box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
- border-radius: 30px;
- box-sizing: border-box;
- padding: 20px;
- margin:20px 0px;
-  
+
+.testimonial__card {
+  background: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px 0px;
 }
-.testimonial__person__image{
-  width:70px;
-  height:70px;
+
+.testimonial__person__image {
+  width: 70px;
+  height: 70px;
   object-fit: fill;
   border-radius: 100%;
   display: flex;
-  flex-direction:row ;
+  flex-direction: row;
   justify-content: center;
 }
-.testimonial__star{
-  width:100px;
+
+.testimonial__star {
+  width: 100px;
 }
+
+.testimonial__main__image {
+  position: relative;
+  top: 110px;
+}
+
+.testiminial__section {
+  margin: 158px 0px;
+}
+
 /* Testimonial Section end  */
+
+/* Contact form styling start  */
+
+.contact__section {
+  margin-bottom: 120px;
+}
+
+.contact__form__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.contact__form input {
+  padding: 15px 40px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 20px;
+  width: 82%;
+  margin: 20px 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact__form input:focus {
+  background: #e6e1dd;
+}
+
+.contact__form textarea {
+  margin: 20px 0px;
+  padding: 20px 40px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 20px;
+  width: 82%;
+  resize: none;
+  font-family: "Poppins", sans-serif;
+}
+.contact__form textarea:focus {
+  background: #e6e1dd;
+}
+.input__label {
+  margin: 10px;
+}
+
+.contact__submit__form {
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+  padding: 12px 38px;
+  border-radius: 50px;
+  color: #fff;
+  transition: 0.5s;
+  transition-timing-function: linear;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.contact__submit__form:hover {
+  background: linear-gradient(88.33deg, #fe4b2e -7.64%, #fba24f 145.94%);
+}
+
+/* contact form styling end  */
+
+/* footer section styling start  */
+
+.footer__section {
+  background-color: #18191f;
+  padding: 30px 0px;
+}
+
+.footer__content__wrapper h1 {
+  color: #ffffff;
+  font-family: "Courgette", cursive;
+  text-align: center;
+}
+
+#footer__different__text {
+  color: #fba24f;
+}
+
+#footer__copyright__text {
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+
+.footer__content__wrapper a {
+  color: #fba24f;
+}
+
+/* footer section styling end  */
